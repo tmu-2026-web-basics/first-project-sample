@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 15px;
+  font-family: "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+  background: #e8f5e9; 
+  color: #444;
+}
+
+header {
+  background: #f8bbd0; 
+  padding: 2em;
+  border-radius: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+header h1 {
+  margin: 0;
+  color: #5d4037;
+  font-size: 2rem;
+}
+
+nav {
+  background: #fce4ec; 
+  border-radius: 25px;
+  padding: 0.5em;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  flex: 1;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 0.9em;
+  background: #c8e6c9; 
+  color: #5d4037;
+  text-decoration: none;
+  border-radius: 999px; 
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: #f48fb1;
+  color: white;
+  transform: translateY(-2px);
+}
+
+main {
+  background: #ffffffcc;
+  padding: 2em;
+  border-radius: 30px;
+  min-height: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #f8bbd0;
+  padding: 1em;
+  text-align: center;
+  border-radius: 25px;
+  color: #5d4037;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
